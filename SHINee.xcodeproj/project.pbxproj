@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC691CD0230A8A58005B26E5 /* HowToPlay.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC691CCF230A8A58005B26E5 /* HowToPlay.sks */; };
 		BC740001228DEA9F006D0F11 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC740000228DEA9F006D0F11 /* GameScene.swift */; };
 		BC740003228DEA9F006D0F11 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC740002228DEA9F006D0F11 /* GameViewController.swift */; };
 		BC740006228DEA9F006D0F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC740004228DEA9F006D0F11 /* Main.storyboard */; };
@@ -14,10 +15,26 @@
 		BC74000B228DEAA0006D0F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC740009228DEAA0006D0F11 /* LaunchScreen.storyboard */; };
 		BC74FFFB228DEA9F006D0F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74FFFA228DEA9F006D0F11 /* AppDelegate.swift */; };
 		BC74FFFD228DEA9F006D0F11 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC74FFFC228DEA9F006D0F11 /* GameScene.sks */; };
-		BC74FFFF228DEA9F006D0F11 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC74FFFE228DEA9F006D0F11 /* Actions.sks */; };
+		BC9D11A52295C884003294D9 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC9D11A42295C884003294D9 /* Explosion.sks */; };
+		BCA2482222AC23AF002CC180 /* ming.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCA2481E22AC23AE002CC180 /* ming.wav */; };
+		BCA2482322AC23AF002CC180 /* taem.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCA2481F22AC23AE002CC180 /* taem.wav */; };
+		BCA2482422AC23AF002CC180 /* key.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCA2482022AC23AE002CC180 /* key.wav */; };
+		BCA2482522AC23AF002CC180 /* onew.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCA2482122AC23AE002CC180 /* onew.wav */; };
+		BCA2482722AC23B6002CC180 /* dino.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCA2482622AC23B5002CC180 /* dino.wav */; };
+		BCA2484D22AD9FC2002CC180 /* SecondScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BCA2484C22AD9FC2002CC180 /* SecondScene.sks */; };
+		BCBA714A23084738007A7398 /* HowToPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA714923084738007A7398 /* HowToPlay.swift */; };
+		BCDEC70922D7DA6400970295 /* HelpScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BCDEC70822D7DA6400970295 /* HelpScene.sks */; };
+		BCDEC70B22D7DA9C00970295 /* HelpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDEC70A22D7DA9C00970295 /* HelpScene.swift */; };
+		BCDEC70D22E1193700970295 /* tutorial.mov in Resources */ = {isa = PBXBuildFile; fileRef = BCDEC70C22E1193600970295 /* tutorial.mov */; };
+		BCFC9CD522B6AF550018CA91 /* SecondScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC9CD422B6AF550018CA91 /* SecondScene.swift */; };
+		FDC78B7B56B0833C5AD89065 /* Pods_SHINee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EB2E0851D6AA57978D4D07 /* Pods_SHINee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5562995E644DD2B79CBDB615 /* Pods-SHINee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHINee.release.xcconfig"; path = "Target Support Files/Pods-SHINee/Pods-SHINee.release.xcconfig"; sourceTree = "<group>"; };
+		7B1FB5F24E2B6CDB79CC5B9D /* Pods-SHINee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHINee.debug.xcconfig"; path = "Target Support Files/Pods-SHINee/Pods-SHINee.debug.xcconfig"; sourceTree = "<group>"; };
+		97EB2E0851D6AA57978D4D07 /* Pods_SHINee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHINee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC691CCF230A8A58005B26E5 /* HowToPlay.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HowToPlay.sks; sourceTree = "<group>"; };
 		BC740000228DEA9F006D0F11 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BC740002228DEA9F006D0F11 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BC740005228DEA9F006D0F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,7 +44,19 @@
 		BC74FFF7228DEA9F006D0F11 /* SHINee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHINee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC74FFFA228DEA9F006D0F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC74FFFC228DEA9F006D0F11 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		BC74FFFE228DEA9F006D0F11 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BC9D11A42295C884003294D9 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		BCA2481E22AC23AE002CC180 /* ming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ming.wav; sourceTree = "<group>"; };
+		BCA2481F22AC23AE002CC180 /* taem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = taem.wav; sourceTree = "<group>"; };
+		BCA2482022AC23AE002CC180 /* key.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = key.wav; sourceTree = "<group>"; };
+		BCA2482122AC23AE002CC180 /* onew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = onew.wav; sourceTree = "<group>"; };
+		BCA2482622AC23B5002CC180 /* dino.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dino.wav; sourceTree = "<group>"; };
+		BCA2484C22AD9FC2002CC180 /* SecondScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SecondScene.sks; sourceTree = "<group>"; };
+		BCBA714923084738007A7398 /* HowToPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlay.swift; sourceTree = "<group>"; };
+		BCC0405E22D4DBA100122C17 /* SHINee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SHINee.entitlements; sourceTree = "<group>"; };
+		BCDEC70822D7DA6400970295 /* HelpScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HelpScene.sks; sourceTree = "<group>"; };
+		BCDEC70A22D7DA9C00970295 /* HelpScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpScene.swift; sourceTree = "<group>"; };
+		BCDEC70C22E1193600970295 /* tutorial.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tutorial.mov; sourceTree = "<group>"; };
+		BCFC9CD422B6AF550018CA91 /* SecondScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +64,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC78B7B56B0833C5AD89065 /* Pods_SHINee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		594940F84EF26AFFAC8BBF8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B1FB5F24E2B6CDB79CC5B9D /* Pods-SHINee.debug.xcconfig */,
+				5562995E644DD2B79CBDB615 /* Pods-SHINee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C6BC401F0ABAFD7CF262BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97EB2E0851D6AA57978D4D07 /* Pods_SHINee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC74FFEE228DEA9F006D0F11 = {
 			isa = PBXGroup;
 			children = (
 				BC74FFF9228DEA9F006D0F11 /* SHINee */,
 				BC74FFF8228DEA9F006D0F11 /* Products */,
+				594940F84EF26AFFAC8BBF8B /* Pods */,
+				7C6BC401F0ABAFD7CF262BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +109,26 @@
 		BC74FFF9228DEA9F006D0F11 /* SHINee */ = {
 			isa = PBXGroup;
 			children = (
+				BCC0405E22D4DBA100122C17 /* SHINee.entitlements */,
 				BC74FFFA228DEA9F006D0F11 /* AppDelegate.swift */,
-				BC74FFFC228DEA9F006D0F11 /* GameScene.sks */,
-				BC74FFFE228DEA9F006D0F11 /* Actions.sks */,
 				BC740000228DEA9F006D0F11 /* GameScene.swift */,
+				BC74FFFC228DEA9F006D0F11 /* GameScene.sks */,
+				BCA2484C22AD9FC2002CC180 /* SecondScene.sks */,
+				BCFC9CD422B6AF550018CA91 /* SecondScene.swift */,
+				BCDEC70822D7DA6400970295 /* HelpScene.sks */,
+				BCDEC70A22D7DA9C00970295 /* HelpScene.swift */,
+				BCBA714923084738007A7398 /* HowToPlay.swift */,
+				BC691CCF230A8A58005B26E5 /* HowToPlay.sks */,
 				BC740002228DEA9F006D0F11 /* GameViewController.swift */,
+				BC9D11A42295C884003294D9 /* Explosion.sks */,
 				BC740004228DEA9F006D0F11 /* Main.storyboard */,
 				BC740007228DEA9F006D0F11 /* Assets.xcassets */,
+				BCA2482622AC23B5002CC180 /* dino.wav */,
+				BCA2482022AC23AE002CC180 /* key.wav */,
+				BCA2481E22AC23AE002CC180 /* ming.wav */,
+				BCA2482122AC23AE002CC180 /* onew.wav */,
+				BCA2481F22AC23AE002CC180 /* taem.wav */,
+				BCDEC70C22E1193600970295 /* tutorial.mov */,
 				BC740009228DEAA0006D0F11 /* LaunchScreen.storyboard */,
 				BC74000C228DEAA0006D0F11 /* Info.plist */,
 			);
@@ -80,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC74000F228DEAA0006D0F11 /* Build configuration list for PBXNativeTarget "SHINee" */;
 			buildPhases = (
+				226EAE91CBAC90FBFD85A3B0 /* [CP] Check Pods Manifest.lock */,
 				BC74FFF3228DEA9F006D0F11 /* Sources */,
 				BC74FFF4228DEA9F006D0F11 /* Frameworks */,
 				BC74FFF5228DEA9F006D0F11 /* Resources */,
+				BC09A08EFBFF23A2B7BAE502 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,15 +195,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA2482722AC23B6002CC180 /* dino.wav in Resources */,
 				BC740006228DEA9F006D0F11 /* Main.storyboard in Resources */,
 				BC74FFFD228DEA9F006D0F11 /* GameScene.sks in Resources */,
+				BC9D11A52295C884003294D9 /* Explosion.sks in Resources */,
+				BCA2482322AC23AF002CC180 /* taem.wav in Resources */,
+				BCA2482422AC23AF002CC180 /* key.wav in Resources */,
+				BCA2482222AC23AF002CC180 /* ming.wav in Resources */,
+				BCA2482522AC23AF002CC180 /* onew.wav in Resources */,
+				BCA2484D22AD9FC2002CC180 /* SecondScene.sks in Resources */,
+				BCDEC70D22E1193700970295 /* tutorial.mov in Resources */,
 				BC740008228DEA9F006D0F11 /* Assets.xcassets in Resources */,
+				BC691CD0230A8A58005B26E5 /* HowToPlay.sks in Resources */,
+				BCDEC70922D7DA6400970295 /* HelpScene.sks in Resources */,
 				BC74000B228DEAA0006D0F11 /* LaunchScreen.storyboard in Resources */,
-				BC74FFFF228DEA9F006D0F11 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		226EAE91CBAC90FBFD85A3B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHINee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC09A08EFBFF23A2B7BAE502 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHINee/Pods-SHINee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHINee/Pods-SHINee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC74FFF3228DEA9F006D0F11 /* Sources */ = {
@@ -147,8 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC740001228DEA9F006D0F11 /* GameScene.swift in Sources */,
+				BCBA714A23084738007A7398 /* HowToPlay.swift in Sources */,
 				BC740003228DEA9F006D0F11 /* GameViewController.swift in Sources */,
+				BCFC9CD522B6AF550018CA91 /* SecondScene.swift in Sources */,
 				BC74FFFB228DEA9F006D0F11 /* AppDelegate.swift in Sources */,
+				BCDEC70B22D7DA9C00970295 /* HelpScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,37 +415,45 @@
 		};
 		BC740010228DEAA0006D0F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1FB5F24E2B6CDB79CC5B9D /* Pods-SHINee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SHINee/SHINee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JZVTAQKYRT;
 				INFOPLIST_FILE = SHINee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = waffle.SHINee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BC740011228DEAA0006D0F11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5562995E644DD2B79CBDB615 /* Pods-SHINee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SHINee/SHINee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JZVTAQKYRT;
 				INFOPLIST_FILE = SHINee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = waffle.SHINee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
