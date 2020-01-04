@@ -15,9 +15,10 @@ class Ball: SKSpriteNode { }
 class SecondScene: SKScene {
     
     func restart(){
-        print("ran restart function")
-        let myScene = GameScene(fileNamed: "GameScene")
-        self.scene?.view?.presentScene(myScene!)
+        if let scene = GameScene(fileNamed: "GameScene") {
+            scene.scaleMode = .aspectFill
+            self.scene?.view?.presentScene(scene)
+        }
     }
 
     var balls = ["key-1", "minho-1", "taemin-1", "onew-1", "jonghyun"]
@@ -214,7 +215,7 @@ class SecondScene: SKScene {
                         powerup.run(sequence)
                     }
                     
-                    if score >= 150 {
+                    if score >= 100 {
                         let win = SKSpriteNode(imageNamed: "shinee yay")
                         win.position = CGPoint(x: frame.midX, y: frame.midY)
                         win.zPosition = 100

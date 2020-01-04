@@ -7,12 +7,12 @@
 //
 
 import SpriteKit
-import GameplayKit
-import CoreMotion
 
 class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
+        
+        print("hi")
      
         let button = SKSpriteNode(imageNamed: "play.png")
         button.position = CGPoint(x: self.frame.size.width/2, y: 760)
@@ -24,8 +24,8 @@ class GameScene: SKScene {
         helpButton.size = CGSize(width: 500, height: 150)
         helpButton.name = "helpButton"
         
-        self.addChild(helpButton)
-        self.addChild(button)
+        addChild(helpButton)
+        addChild(button)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -46,6 +46,7 @@ class GameScene: SKScene {
                     self.scene?.view?.presentScene(myScene!)
                 }
             }
+            
         }
     }
     

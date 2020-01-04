@@ -111,10 +111,10 @@
 			children = (
 				BCC0405E22D4DBA100122C17 /* SHINee.entitlements */,
 				BC74FFFA228DEA9F006D0F11 /* AppDelegate.swift */,
-				BC740000228DEA9F006D0F11 /* GameScene.swift */,
-				BC74FFFC228DEA9F006D0F11 /* GameScene.sks */,
 				BCA2484C22AD9FC2002CC180 /* SecondScene.sks */,
 				BCFC9CD422B6AF550018CA91 /* SecondScene.swift */,
+				BC740000228DEA9F006D0F11 /* GameScene.swift */,
+				BC74FFFC228DEA9F006D0F11 /* GameScene.sks */,
 				BCDEC70822D7DA6400970295 /* HelpScene.sks */,
 				BCDEC70A22D7DA9C00970295 /* HelpScene.swift */,
 				BCBA714923084738007A7398 /* HowToPlay.swift */,

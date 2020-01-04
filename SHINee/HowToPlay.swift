@@ -15,31 +15,31 @@ class HowToPlay: SKScene {
         let titleLabel = SKLabelNode(fontNamed: "HelveticaNeue-Thin")
         titleLabel.text = "How to play"
         titleLabel.color = .black
-        titleLabel.position.x = 400
+        titleLabel.position.x = 360
         titleLabel.position.y = 280
         
         let tutorialLabel = SKLabelNode(fontNamed: "HelveticaNeue-Thin")
         tutorialLabel.text = "Match three of the same face in a row to score 3 points!"
         tutorialLabel.color = .black
-        tutorialLabel.position.x = 450
+        tutorialLabel.position.x = 400
         tutorialLabel.position.y = 250
         
         let firstTutorialLabel = SKLabelNode(fontNamed: "HelveticaNeue-Thin")
         firstTutorialLabel.text = "You can tilt the screen to move the faces around aswell!"
         firstTutorialLabel.color = .black
-        firstTutorialLabel.position.x = 450
+        firstTutorialLabel.position.x = 400
         firstTutorialLabel.position.y = 220
         
         let secondTutorialLabel = SKLabelNode(fontNamed: "HelveticaNeue-Thin")
         secondTutorialLabel.text = "To gain powerups match more than 10 faces in a row!"
         secondTutorialLabel.color = .black
-        secondTutorialLabel.position.x = 450
+        secondTutorialLabel.position.x = 400
         secondTutorialLabel.position.y = 190
         
         let next = SKLabelNode(fontNamed: "HelveticaNeue-Thin")
         next.text = "NEXT"
         next.color = .black
-        next.position.x = 700
+        next.position.x = 600
         next.position.y = 50
         next.name = "next"
         
